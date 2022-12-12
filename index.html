@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="interactive-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+	<div id="rating" class="card1">
+		<img src="images/icon-star.svg" alt="">
+		<h2>How did we do?</h2>
+
+		<p class="supportParagraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+
+		<div id="buttonContainer">
+			<button id="ratingButton1" onclick="b1()" type="button" name="number" value="1">1</button>
+			<button id="ratingButton2" onclick="b2()" type="button" name="number" value="2">2</button>
+			<button id="ratingButton3" onclick="b3()" type="button" name="number" value="3">3</button>
+			<button id="ratingButton4" onclick="b4()" type="button" name="number" value="4">4</button>
+			<button id="ratingButton5" onclick="b5()" type="button" name="number" value="5">5</button>
+		</div>
+
+		<button id="submit" onclick="showResults()">Submit</button>
+
+	</div>
+
+	<div id="result" class="card2 card2Hidden">
+		<img src="images/illustration-thank-you.svg">
+		<p class="ratingResult">You selected<span id="final"> </span>out of 5</p>
+
+		<h2>Thank you!</h2>
+
+		<p class="appreciate">We appreciate you taking the time to give a rating. If you ever need more support, 
+				don’t hesitate to get in touch!</p>
+	</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/wtwilliams310" target="_blank">Titus Williams</a>.
+  </div>
+
+  <script type="text/javascript" src="interactive.js"></script>
+</body>
+</html>

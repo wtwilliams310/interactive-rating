@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/*Primary*/
+	--color-orange:	hsl(25, 97%, 53%);
+
+	/*Neutral*/
+	--white: hsl(0, 0%, 100%);
+	--light-grey: hsl(217, 12%, 63%);
+	--medium-grey: hsl(216, 12%, 54%);
+	--dark-blue: hsl(213, 19%, 18%);
+	--very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;	
+
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Overpass', sans-serif;;
+	font-size: 15px;
+
+	background-color: var(--very-dark-blue);
+}
+
+
+
+p{
+	line-height: 1.5rem;
+}
+h2, p {
+	margin-bottom: 1rem;
+}
+
+h2 {
+	color: var(--white);
+}
+
+p, li {
+	color: var(--light-grey);
+}
+
+#submit {
+	background-color: var(--color-orange);
+	color: var(--white);
+}
+
+
+#result {
+	display: none;
+}
+
+.attribution {
+	position: absolute;
+	margin-top: 28rem;
+	color: var(--light-grey);
+}
+
+
+/*Card1
+/*----------------------------------------------------------*/
+.card1 {
+	width: 21rem;
+	height: 21rem;
+	padding: 2rem;
+	border-radius: 20px;
+	background-image: linear-gradient(hsl(216, 20%, 19%), hsl(216, 25%, 13%));
+/*	position: relative;*/
+}
+
+.card1 img {
+	margin-bottom: 1rem;
+	padding: .8rem;
+	border-radius: 50%;
+	background-color: hsl(209, 11%, 20%);
+}
+
+
+/*button
+/*----------------------------------------------------------*/
+
+#buttonContainer {
+	display: flex;
+}
+
+#buttonContainer > button {
+	color: var(--light-grey);
+	background-color: hsl(209, 11%, 20%);
+	border-radius: 50%;
+	border: none;
+	margin: 8px 10px 25px 10px;
+}
+
+#buttonContainer > button:hover {
+	background-color: var(--light-grey);
+	color: white;
+}
+
+#buttonContainer > button:active {
+	background-color: var(--color-orange);
+	color: white;
+	cursor: pointer;
+}
+
+#buttonContainer > button:focus {
+	background-color: var(--color-orange);
+	color: white;
+}
+
+
+/*List
+/*----------------------------------------------------------*/
+ul {
+	margin: 1.7rem 0rem;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+li {
+	background-color: hsl(209, 11%, 20%);
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+	padding: 1rem;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+li:hover {
+	background-color: var(--light-grey);
+	color: white;
+}
+
+
+
+li:active {
+	background-color: var(--color-orange);
+	color: white;
+	cursor: pointer;
+}
+
+.card1 button {
+	margin-top: .5rem;
+	border-radius: 50px;
+	border: none;
+	width: 100%;
+	padding: .9rem 0rem;
+
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+#submit:active {
+	background-color: white;
+	color: var(--color-orange);
+	cursor: pointer;
+
+}
+/*Card2
+/*----------------------------------------------------------*/
+
+.card2 {
+	width: 20rem;
+	height: 21rem;
+	text-align: center;
+	font-size: 95%;
+	background-image: linear-gradient(hsl(216, 20%, 19%), hsl(216, 25%, 12%));
+	border-radius: 20px;
+	padding: 2rem;
+}
+
+.card2 img {
+	margin-top: 1.0rem;
+	margin-bottom: 1rem;
+}
+
+.ratingResult {
+	color: var(--color-orange);
+	border-radius: 50px;
+	border: hidden;
+	background-color: hsl(209, 11%, 20%);
+	margin: .8rem 5rem;
+	width: 175px;
+	font-size: 13.9px;
+	padding-top: 3px;
+}
+
+
+.card2 h2 {
+	margin-top: 2rem;
+	margin-bottom: .75rem;
+	letter-spacing: 0.065rem;
+}
+
+.appreciate {
+	width: 20rem;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 13.8px;
+}
+
+.select {
+	background-color: var(--color-orange);
+}
+
