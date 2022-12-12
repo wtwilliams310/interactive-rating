@@ -113,9 +113,9 @@ p, li {
 }
 
 
-/*List
+/*List---first attempt before deciding to use buttons
 /*----------------------------------------------------------*/
-ul {
+/*ul {
 	margin: 1.7rem 0rem;
 	display: flex;
 	justify-content: space-between;
@@ -144,8 +144,8 @@ li:hover {
 li:active {
 	background-color: var(--color-orange);
 	color: white;
-	cursor: pointer;
-}
+	cursor: pointer;*/
+/*}*/
 
 .card1 button {
 	margin-top: .5rem;
