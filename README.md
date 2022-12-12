@@ -67,4 +67,3 @@ I want to begin working on using eventListeners instead of onclick. I also will 
 ## Author
 
 - Frontend Mentor - [@wtwilliams310](https://www.frontendmentor.io/profile/wtwilliams310)
-- Frontend Instructor Jason Merrell
