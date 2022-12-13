@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-Zpe00pY7sm]
-- Live Site URL: [https://wtwilliams310.github.io/interactive-rating-component/]
+- Live Site URL: [https://wtwilliams310.github.io/interactive-rating/]
 
 ## My process
 
